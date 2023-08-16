@@ -1,15 +1,11 @@
 #include "main.h"
-
 /**
  * print_times_table - Print the time table of the input
  * starting with 0
  * @n: the value of the times table to be printed
  */
-
 void print_times_table(int n)
-
 {
-
 	int i, j, k;
 
 	if (n >= 0 && n <= 15)
@@ -22,7 +18,7 @@ void print_times_table(int n)
 	if (j == 0)
 	{
 	_putchar(k + '0');
-	}	 
+	} 
 	else if (k < 10 && j != 0)
 	{
 	_putchar(',');
